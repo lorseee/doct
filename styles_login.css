@@ -1,0 +1,73 @@
+/*Universal CSS starts*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Universal CSS ends*/
+
+/*border form*/
+#form 
+{
+    border:3px solid
+}
+
+/*inputs*/
+input[type=text], input[type=password]
+ {
+    width: 30%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15rem;
+  }
+  /* inputs ends*/
+
+  #imgcontainer
+  {
+    display: flex;
+    text-align:center;
+    margin: 24px 0 10px 0;
+  }
+
+  #loginText
+  {
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10px;
+    font-size: large;
+  }
+
+  div.userPassContainer
+  {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10px;
+  }
+
+  #avatar
+  {
+    width: 40%;
+    border-radius: 50%;
+  }
+  #button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+

@@ -92,6 +92,31 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
     background-color: #777;
 }
+
+#sort-by-text {
+    font-family: monospace;
+}
+
+.sort-dropdown {
+    font-family: monospace;
+}
+
+ul.sort-dropdown {
+    background: #e3c0e0;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul.sort-dropdown li {
+    display: block;
+}
+
+ul.sort-dropdown li a:hover {
+    background: #112C66;
+
+}
 /* Body CSS ends */
 
 /* Body background gradient effect starts */

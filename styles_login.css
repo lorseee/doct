@@ -30,6 +30,7 @@ input[type=text], input[type=password]
     display: flex;
     text-align:center;
     margin: 24px 0 10px 0;
+  
   }
 
   #loginText
@@ -45,11 +46,20 @@ input[type=text], input[type=password]
 
   div.userPassContainer
   {
-    display: block;
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     margin: 5px;
     margin-left: 10px;
+  }
+  .box{
+    background: #464444;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
   }
 
   #avatar

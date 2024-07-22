@@ -91,17 +91,17 @@ body {
     display: block;
     align-items: center;
     text-align: center;
-    font-size: 5vh;
-    padding: 10px;
-    margin: 10px;
-    letter-spacing: 5px;
+    font-size: 40px;
+    padding: 15px;
+    margin: 20px;
+    letter-spacing: 2px;
 }
 #subheading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-display: block;
     align-items: center;
     text-align: center;
-    font-size: 3vh;
+    font-size: 40px;
     padding: 9px;
     margin: 10px;
 }
@@ -129,7 +129,7 @@ body {
     border-radius: 6rem;
     color: rgb(0, 0, 0, 0.87);
 
-    font-size: 16px;
+    font-size: 20px;
     padding: 13px;
     padding-left: 45px;
     outline: none;
@@ -187,7 +187,7 @@ body {
     padding-top: 60px;
     padding-bottom: 35px;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 
 

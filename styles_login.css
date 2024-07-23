@@ -4,10 +4,16 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 body{
-     background: #e4e9f7
+     background: #e4e9f7;
+     background-image: url(/images/appointmentdoc.jpg);
+    
 }
+
 
 
 .container

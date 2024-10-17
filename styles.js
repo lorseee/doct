@@ -46,6 +46,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    var dropdownButton = document.querySelector('.sort-dropdown-button');
+    var dropdownMenu = document.querySelector('.sort-dropdown-menu');
+
+    dropdownButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.style.display = 'none';
+        }
+    });
+});
+
+
 // document.addEventListener('DOMContentLoaded', () => {
 //     const body = document.body;
 //     const imageCount = 100; // adjust the number of images

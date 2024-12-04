@@ -3,41 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOCTORMENT!</title>
+    <title>Doctorment</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles_footer.css">
+
 </head>
 <body>
     <nav>
         <div>
-        <strong>
-        <a target="_blank">  My Appointments </a>
-        <a target="_blank"> Help </a>
-        <a target="_blank" href="/login.html"> Login </a>
-        <select id="language">
-            <option value="EN"> English </option>
-            <option value="KA"> Kannada </option>
-            <option value="HI"> Hindi </option>
-            <option value="FR"> FRENCH </option>
-        </select>
-        <a target="_blank" href="https://maps.app.goo.gl/4HDrxjRKvi6iWfdJA">
-            <img src="/images/maps.webp" alt="#" title="Find clinic" id="maps-id">
+            <strong>
+                <a target="_blank" href="/appointments.html">  My Appointments </a>
+                <a target="_blank" href="#"> Help </a>
+                <a target="_blank" href="/login.html"> Login </a>
+                <select id="language">
+                    <option value="EN"> English </option>
+                    <option value="KA"> Kannada </option>
+                    <option value="HI"> Hindi </option>
+                </select>
+                <a target="_blank" href="https://maps.app.goo.gl/4HDrxjRKvi6iWfdJA">
+                    <img src="/images/maps.webp" alt="#" title="Find clinic" id="maps-id">
+                </a>
+                    <img src="/images/doctorment-removebg-preview.png" id = "logo">
 
-        </a>
+            
+            </strong>
         </div>
-    </strong>
-        
     </nav>
+    
 
     <section id="search-section">
-        <div>
-            <img src="/images/doctorment-removebg-preview.png" id = "logo">
-        </div>
+       
 
         <div id="booking-text">
             <h1>DOCTORMENT</h1>
         </div>
+
+        <div id="bg-image">
+            <img class="bg" src="/images/icon.jpg" id = "image">
+        </div>
+
         <div id="subheading">
-            <h2>Book your appointment in 2 mins!!</h2>
+            <h2>Book your appointment in 2 minutes!</h2>
         </div>
         
         <form id="search-box">
@@ -51,15 +59,77 @@
     </section>
     
 
-    <section id="useless-content">
+    <section id="text-filler">
         
     </section>
 
+    <div class="fillerContainer">
+
+        <div class="howToBookText">
+            <h1>How to book?</h1>
+            <p id="threeSteps">Booking a doctor is just 3 easy steps now!</p>
+        </div>
+
+        <div class="boxesOutside">
+            <div class="col-lg-4">
+                <div class="box_feat" id="icon_1">
+                    <span></span>
+                    <h3>SEARCH</h3>
+                    <p>Doctor / Specialization to match specific consultation needs.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box_feat" id="icon_2">
+                    <span></span>
+                    <h3>BOOK</h3>
+                    <p>Request appointments based on slots, date and location.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box_feat" id="icon_3">
+                    <h3>CONFIRM</h3>
+                    <p>Avoid endless back and forth communication; add your details and that's it!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:abc@example.com</p>
+                <p>Phone:+91 8695475650</p>
+                <p>Address:</p>
+                <p>AECS Layout, ITPL Main Road,Bengaluru</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar">
+            <p></p>
+        </div>
+
 
     </footer>
 </body>
 </html>
-
-

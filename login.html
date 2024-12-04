@@ -5,37 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Dashboard</title>
     <link rel="stylesheet" href="/styles_login.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="container">
+        <div class="box form-box">
+            <header>LOGIN</header>
         <form action="action_page.php" method="post">
-            <div class="imgcontainer">
-              <img src="/images/ava.jpg" alt="Avatar" class="avatar">
-             </div>
+            
 
-            <div id="loginText">
-                <h1>LOGIN</h1>
+            <div class="field input">
+               <label for="uname"><b>Username</b></label>
+               <input type="text" placeholder="Enter Username" name="uname" required>
             </div>
-        
-        <div class="userPassContainer">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <div class="field input">
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
         </div>
         
-        <div class="loginPageButtons">
-            <button type="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+        <div class="field">
+            <input type="submit" class="button" name="Submit"value="Login" required>
         </div>
-           
-  </div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-</form>
+        <div class="links">
+            Don't have account? <a href="register.html">Sign Up Now</a>
+        </div>
+        </form>
+    </div>
+    </div>
+
 </body>
+
 </html>
